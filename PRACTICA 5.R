@@ -21,4 +21,9 @@ moda <-function(x){
 }
 moda(numArtefactos_int)
 #EJERCICIO 5
-table(numArtefactos_int)
+frecuencias = table(numArtefactos_int)
+frecuencias.ordenadas = frecuencias[order(frecuencias, decreasing=TRUE)]
+frecuencias.ordenadas
+#EJERCICIO 6
+quantile(numArtefactos_int)
+#EJERCICIO 7
