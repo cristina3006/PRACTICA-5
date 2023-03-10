@@ -27,3 +27,12 @@ frecuencias.ordenadas
 #EJERCICIO 6
 quantile(numArtefactos_int)
 #EJERCICIO 7
+IQR(numArtefactos_int) #El rango intercuartílico es 40
+#EJERCICIO 8
+rango_artefactos <- range(numArtefactos_int) #El rango de artefactos es 4 102
+#EJERCICIO 9
+var(numArtefactos_int) #La varianza es 927.1026.
+#EJERCICIO 10
+sd(numArtefactos_int)
+sqrt(var(numArtefactos_int)) #La desviación estándar es 30.44836
+
