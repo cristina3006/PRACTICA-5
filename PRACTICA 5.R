@@ -35,4 +35,17 @@ var(numArtefactos_int) #La varianza es 927.1026.
 #EJERCICIO 10
 sd(numArtefactos_int)
 sqrt(var(numArtefactos_int)) #La desviación estándar es 30.44836
+#EJERCICIO 11
+#La desviación estandar se usa más en Estadística que la varianza, ya que está expresada en las mismas unidades que la variable, mientras que la varianza está expressada en unidades cuadradas.
+#EJERCICIO 12
+numArtefactos<- c(17, 54, 10, 34, 90, 33, 49, 82, 12, 23, 56, 78, 44, 102, 10, 53, 4, 28, 37, 95)
+numArtefactos_int <- as.integer(numArtefactos)
 
+library(ggplot2)
+ggplot(data.frame(numArtefactos_int), aes(x=numArtefactos_int, y=0)) + 
+  geom_point(size=3, shape=21, fill="blue", color="black") +
+  ylab("")
+install.packages("ggplot2")
+#EJERCICIO 13
+vector3 = c(21, 45, 33, 98, 34, 90, 67, 87, 45, 11, 73, 38, 28, 15, 50, 57, 12, 87, 29, 1)
+#EJERCICIO 14
